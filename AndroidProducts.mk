@@ -20,3 +20,4 @@ PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/omni_curtana.mk
 
 COMMON_LUNCH_CHOICES := omni_curtana-eng
+
