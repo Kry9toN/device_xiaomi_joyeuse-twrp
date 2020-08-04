@@ -56,7 +56,7 @@
 /hyp              emmc     /dev/block/bootdevice/by-name/hyp          flags=display="hyp";backup=1;flashimg=1
 /devcfg           emmc     /dev/block/bootdevice/by-name/devcfg       flags=display="devcfg";backup=1;flashimg=1
 
-/storage          ext4     /data/media/0                              flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable
+/storage/emulated ext4     /data/media                              flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable
 
-/sdcard1          auto     /dev/block/mmcblk0p1  /dev/block/mmcblk0   flags=display="MicroSD";storage;wipeingui;removable;fsflags="utf8"
+/sdcard           auto     /mnt/media_rw  /dev/block/mmcblk0p1  /dev/block/mmcblk0   flags=display="MicroSD";storage;wipeingui;removable;fsflags="utf8"
 /usb-otg          auto     /dev/block/sdg1  /dev/block/sdg            flags=display="USB Storage";storage;wipeingui;removable;fsflags="utf8"
