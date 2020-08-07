@@ -128,7 +128,7 @@ TARGET_RECOVERY_QCOM_RTC_FIX := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_EXTRA_LANGUAGES := true
 TW_INCLUDE_NTFS_3G := true
-TW_USE_TOOLBOX := true
+TW_FORCE_USE_BUSYBOX := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_MAX_BRIGHTNESS := 2047
@@ -141,3 +141,8 @@ TW_EXCLUDE_TWRPAPP := true
 TW_HAS_EDL_MODE := true
 TW_NO_SCREEN_BLANK := true
 PLATFORM_VERSION := 16.1.0
+
+# PBRP Conf
+PB_TORCH_PATH := /sys/class/leds/led:torch_0
+# Untick DM VERITY by default
+PB_DISABLE_DEFAULT_DM_VERITY := true
