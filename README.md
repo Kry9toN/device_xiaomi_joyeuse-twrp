@@ -1,23 +1,23 @@
-Device configuration for the Redmi Note 9S / 9 Pro (India)
-============================================
+# Recovery Tree for Redmi Note 9 Pro (joyeuse)
 
-The Redmi Note 9S / 9 Pro (India) (codenamed _"curtana"_) is a mid range smartphone from Xiaomi's sub-brand Redmi.
+## Spec Sheet
 
-It was announced in March 2020 and released in April 2020.
+| Feature                 | Specification                     |
+| :---------------------- | :-------------------------------- |
+| CPU                     | Octa-core 2.32 GHz Kryo™ 465      |
+| Chipset                 | Qualcomm SM7125 Snapdragon 720G   |
+| GPU                     | Adreno 618                        |
+| Memory                  | 6 GB                              |
+| Shipped Android Version | 10.0.0                            |
+| Storage                 | 64/128 GB                         |
+| MicroSD                 | microSDXC                         |
+| Battery                 | 5020 mAh (non-removable)          |
+| Dimensions              | 165.8 x 76.7 x 8.8 mm             |
+| Display                 | 1080 x 2400 pixels, 6.67 (~395 PPI) |
+| Rear Camera             | 64/5/8/2 MP, LED flash            |
+| Front Camera            | 16 MP                             |
+| Release Date            | May 2020                          |
 
-## Device specifications
+## Device Picture
 
-Basic   | Spec Sheet
--------:|:-------------------------
-SoC     | Qualcomm SM7125 Snapdragon 720G
-CPU     | Octa-core (2x2.3 GHz Kryo 465 Gold & 6x1.8 GHz Kryo 465 Silver)
-GPU     | Adreno 618
-Memory  | 4/6 GB RAM
-Shipped Android Version | 10 with MIUI 11
-Storage | 64/128 GB
-Battery | Non-removable Li-Po 5020 mAh battery
-Display | 1080 x 2400 pixels, 20:9 ratio, 6.67 inches, IPS LCD (~395 ppi density)
-
-## Device picture
-
-![Redmi Note 9S / 9 Pro (India)](https://cdn-files.kimovil.com/default/0004/36/thumb_335718_default_big.jpeg "Redmi Note 9S / 9 Pro (India)")
+![Redmi Note 9 Pro](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-9-pro-global-0.jpg "Redmi Note 9 Pro")
