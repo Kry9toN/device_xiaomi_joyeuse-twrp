@@ -147,3 +147,4 @@ PLATFORM_VERSION := 16.1.0
 PB_TORCH_PATH := /sys/class/leds/led:torch_0
 # Untick DM VERITY by default
 PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_DONT_MOUNT_SYSTEM_AS_ROOT := true
